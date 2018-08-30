@@ -1,15 +1,17 @@
 {
   "pages": [
     {
-      "pageName": "HomePage",
+      "pageName": "Page169",
       "pagePath": "/home",
       "children": [
         {
           "type": "div",
-          "variant": "default",
           "props": {
             "style": {
-              "color": "#6b6161"
+              "height": "3000%",
+              "width": "100%",
+              "padding": "4%",
+              "backgroundColor": "#ffffff"
             }
           },
           "children": [
@@ -18,25 +20,1166 @@
               "variant": "default",
               "props": {
                 "style": {
-                  "height": "100px",
-                  "backgroundColor": "#fcecd7",
-                  "borderRadius": "4px",
-                  "textAlign": "center",
-                  "paddingTop": "40px",
-                  "paddingBottom": "40px"
+                  "width": "100%",
+                  "height": "100%",
+                  "backgroundColor": "#ffffff",
+                  "top": "-221px"
                 }
               },
               "children": [
                 {
-                  "type": "span",
-                  "text": "Hello Colorful World 🖍🖍",
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "width": "100%",
+                              "position": "relative",
+                              "height": "100%"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "width": "90px",
+                                  "position": "absolute",
+                                  "transform": "translateY(-50%)",
+                                  "top": "50%",
+                                  "marginLeft": "12px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "a",
+                                  "variant": "default",
+                                  "props": {
+                                    "href": "/home"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "https://github.com/dphil2284/harbor-class-02/blob/master/app/image/dphi-logo__.png?raw=true",
+                                        "style": {
+                                          "width": "100%",
+                                          "padding": "5px"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "width": "100%",
+                              "height": "150px",
+                              "position": "relative"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "position": "absolute",
+                                  "top": "50%",
+                                  "transform": "translateY(-50%)",
+                                  "left": "5%"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "a",
+                                  "variant": "default",
+                                  "props": {
+                                    "href": "/work",
+                                    "style": {
+                                      "textDecoration": "none"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "22px"
+                                        }
+                                      },
+                                      "children": [],
+                                      "text": "Work"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "1px",
+                                      "width": "20px",
+                                      "marginTop": "10%",
+                                      "backgroundColor": "#4500fc"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "position": "absolute",
+                                  "marginLeft": "45%",
+                                  "top": "50%",
+                                  "transform": "translateY(-50%)"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "a",
+                                  "variant": "default",
+                                  "props": {
+                                    "href": "/contact",
+                                    "style": {
+                                      "textDecoration": "none"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "22px",
+                                          "color": "#d1d1d1",
+                                          "textDecoration": "none"
+                                        }
+                                      },
+                                      "children": [],
+                                      "text": "Contact"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "1px",
+                                      "width": "20px",
+                                      "marginTop": "10%",
+                                      "backgroundColor": "#d1d1d1"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "position": "absolute",
+                                  "marginLeft": "25%",
+                                  "top": "50%",
+                                  "transform": "translateY(-50%)"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "a",
+                                  "variant": "default",
+                                  "props": {
+                                    "href": "/about",
+                                    "style": {
+                                      "textDecoration": "none"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "22px",
+                                          "color": "#d1d1d1"
+                                        }
+                                      },
+                                      "children": [],
+                                      "text": "About"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "1px",
+                                      "width": "20px",
+                                      "marginTop": "10%",
+                                      "backgroundColor": "#d1d1d1"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {}
+                },
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "backgroundColor": "#ffffff",
+                              "padding": "8px",
+                              "marginTop": "4%"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontFamily": "Sawarabi Mincho",
+                                  "fontSize": "50px",
+                                  "display": "block",
+                                  "top": "50px",
+                                  "color": "#150efa",
+                                  "textAlign": "center"
+                                }
+                              },
+                              "children": [],
+                              "text": "Hyun Sung Lee"
+                            },
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontSize": "16px",
+                                  "color": "#bfbfbf",
+                                  "textAlign": "center",
+                                  "display": "block",
+                                  "marginTop": "1.5%",
+                                  "fontWeight": 300
+                                }
+                              },
+                              "children": [],
+                              "text": "Portfolio - BX / UX, UI / Editorial / Guide"
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": "12"
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
                   "props": {
                     "style": {
-                      "lineHeight": "20px",
-                      "backgroundColor": "#b8e986",
-                      "color": "#4a90e2"
+                      "marginTop": "5px"
                     }
                   }
+                },
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "backgroundColor": "#e8e8e8",
+                              "position": "absolute",
+                              "width": "96%",
+                              "height": "698px",
+                              "padding": "7px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "a",
+                              "variant": "default",
+                              "props": {
+                                "href": "/Sub page-01"
+                              },
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "",
+                                    "style": {
+                                      "width": "100%"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": "6",
+                        "style": {
+                          "position": "relative",
+                          "height": "698px"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "477px",
+                              "backgroundColor": "#d7d7d7",
+                              "position": "absolute",
+                              "width": "96%",
+                              "right": "0px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "img",
+                              "variant": "default",
+                              "props": {
+                                "src": "",
+                                "style": {
+                                  "width": "100%",
+                                  "right": "0px",
+                                  "display": "block",
+                                  "position": "absolute"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": "6",
+                        "style": {
+                          "position": "relative",
+                          "height": "698px"
+                        }
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "style": {
+                      "marginTop": "5%"
+                    }
+                  }
+                },
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "backgroundColor": "#d0d0d0",
+                              "position": "absolute",
+                              "width": "96%",
+                              "height": "477px",
+                              "padding": "7px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "a",
+                              "variant": "default",
+                              "props": {
+                                "href": "/Sub page-01"
+                              },
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": ""
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": "6",
+                        "style": {
+                          "position": "relative",
+                          "height": "477px"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "698px",
+                              "backgroundColor": "#d7d7d7",
+                              "position": "absolute",
+                              "width": "96%",
+                              "right": "0px",
+                              "top": "-221px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "img",
+                              "variant": "default",
+                              "props": {
+                                "src": "",
+                                "style": {
+                                  "width": "100%",
+                                  "right": "0px",
+                                  "display": "block",
+                                  "position": "absolute"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": "6",
+                        "style": {
+                          "position": "relative",
+                          "height": "698px"
+                        }
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "style": {
+                      "marginTop": "5%"
+                    }
+                  }
+                },
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {},
+                      "children": []
+                    }
+                  ],
+                  "namespace": "Layout"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "variant": "default",
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "justifyContent": "center",
+                  "height": "300px",
+                  "backgroundColor": "#150efa",
+                  "width": "100%",
+                  "position": "relative",
+                  "transform": "translateY(-50%)",
+                  "top": "50%"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "height": "100px",
+                          "top": "50%",
+                          "position": "absolute",
+                          "transform": "translateY(-50%)",
+                          "marginLeft": "2%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "top": "50%",
+                              "position": "relative",
+                              "transform": "translateY(-50%)"
+                            },
+                            "stlye": {}
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "HyunSung Lee",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff"
+                                }
+                              }
+                            },
+                            {
+                              "type": "span",
+                              "text": "BX Designer",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff",
+                                  "marginTop": "11px"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "height": "100px",
+                          "top": "50%",
+                          "position": "absolute",
+                          "transform": "translateY(-50%)",
+                          "marginLeft": "22%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "top": "50%",
+                              "position": "relative",
+                              "transform": "translateY(-50%)"
+                            },
+                            "stlye": {}
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "Guro-gu,Seoul, Republic of Korea",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff"
+                                }
+                              }
+                            },
+                            {
+                              "type": "span",
+                              "text": "08239",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff",
+                                  "marginTop": "11px"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "height": "100px",
+                          "top": "50%",
+                          "position": "absolute",
+                          "transform": "translateY(-50%)",
+                          "marginLeft": "55%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "top": "50%",
+                              "position": "relative",
+                              "transform": "translateY(-50%)"
+                            },
+                            "stlye": {}
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "d_phil@naver.com",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff"
+                                }
+                              }
+                            },
+                            {
+                              "type": "span",
+                              "text": "010.2284.2506",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff",
+                                  "marginTop": "11px"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "right": "1%",
+                          "height": "100%",
+                          "width": "100%",
+                          "display": "inline-block",
+                          "position": "absolute"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "40px",
+                              "top": "50%",
+                              "position": "absolute",
+                              "transform": "translateY(-50%)",
+                              "marginLeft": "55%",
+                              "right": "0%",
+                              "width": "40px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "a",
+                              "variant": "default",
+                              "props": {
+                                "href": "#"
+                              },
+                              "children": [
+                                {
+                                  "type": "i",
+                                  "variant": "default",
+                                  "props": {
+                                    "className": "fab fa-dribbble",
+                                    "style": {
+                                      "fontSize": "24px",
+                                      "top": "50%",
+                                      "position": "relative",
+                                      "transform": "translate(-50%, -50%)",
+                                      "left": "50%",
+                                      "color": "#ffffff"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "40px",
+                              "top": "50%",
+                              "position": "absolute",
+                              "transform": "translateY(-50%)",
+                              "right": "3.5%",
+                              "width": "40px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "a",
+                              "variant": "default",
+                              "props": {
+                                "href": "#"
+                              },
+                              "children": [
+                                {
+                                  "type": "i",
+                                  "variant": "default",
+                                  "props": {
+                                    "className": "fab fa-twitter",
+                                    "style": {
+                                      "fontSize": "24px",
+                                      "top": "50%",
+                                      "position": "relative",
+                                      "transform": "translate(-50%, -50%)",
+                                      "left": "50%",
+                                      "color": "#ffffff"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "40px",
+                              "top": "50%",
+                              "position": "absolute",
+                              "transform": "translateY(-50%)",
+                              "right": "7%",
+                              "width": "40px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "a",
+                              "variant": "default",
+                              "props": {
+                                "href": "#"
+                              },
+                              "children": [
+                                {
+                                  "type": "i",
+                                  "variant": "default",
+                                  "props": {
+                                    "className": "fab fa-facebook-f",
+                                    "style": {
+                                      "fontSize": "24px",
+                                      "top": "50%",
+                                      "position": "relative",
+                                      "transform": "translate(-50%, -50%)",
+                                      "left": "50%",
+                                      "color": "#ffffff"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "namespace": "Layout",
+          "props": {
+            "col": 12,
+            "style": {
+              "height": "300px",
+              "backgroundColor": "#ffffff",
+              "bottom": "0px",
+              "top": "0px"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "pageName": "Page1298",
+      "pagePath": "/Portfolio-01",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "style": {
+              "display": "block",
+              "width": "100%",
+              "margin": "33px",
+              "height": "100%"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "height": "90px",
+                      "backgroundColor": "#ffffff",
+                      "borderRadius": "4px",
+                      "display": "block",
+                      "position": "relative"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block",
+                          "justifyContent": "center",
+                          "height": "73px",
+                          "alignItems": "center",
+                          "backgroundColor": "#ffffff",
+                          "borderRadius": "4px",
+                          "width": "53px",
+                          "position": "absolute",
+                          "marginTop": "1.5%",
+                          "marginLeft": "2%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "img",
+                          "variant": "default",
+                          "props": {
+                            "src": "https://github.com/dphil2284/harbor-class-02/blob/master/app/image/dphi-logo__.png?raw=true",
+                            "style": {
+                              "width": "142%"
+                            }
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "inline-block",
+                          "backgroundColor": "#ffffff",
+                          "position": "absolute",
+                          "marginTop": "2.5%",
+                          "right": "9%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "Contact",
+                          "props": {
+                            "style": {
+                              "padding": "10px",
+                              "display": "block",
+                              "fontSize": "20px",
+                              "color": "#b5b5b5"
+                            }
+                          }
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "backgroundColor": "#1106ff",
+                              "width": "21px",
+                              "height": "1px",
+                              "marginLeft": "10px"
+                            }
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "inline-block",
+                          "backgroundColor": "#ffffff",
+                          "position": "absolute",
+                          "marginTop": "2.5%",
+                          "right": "20.5%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "About Me",
+                          "props": {
+                            "style": {
+                              "padding": "10px",
+                              "display": "block",
+                              "fontSize": "20px",
+                              "color": "#b5b5b5"
+                            }
+                          }
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "backgroundColor": "#1106ff",
+                              "width": "21px",
+                              "height": "1px",
+                              "marginLeft": "10px"
+                            }
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "inline-block",
+                          "backgroundColor": "#ffffff",
+                          "position": "absolute",
+                          "marginTop": "2.5%",
+                          "right": "34%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "Work",
+                          "props": {
+                            "style": {
+                              "padding": "10px",
+                              "display": "block",
+                              "fontSize": "19px",
+                              "color": "#1106ff",
+                              "fontFamily": "'Sawarabi Mincho'"
+                            }
+                          },
+                          "children": []
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "backgroundColor": "#1106ff",
+                              "width": "21px",
+                              "height": "1px",
+                              "marginLeft": "10px"
+                            }
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "height": "100px",
+                      "backgroundColor": "#ffffff",
+                      "width": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block",
+                          "height": "100%",
+                          "backgroundColor": "#ffffff",
+                          "width": "100%",
+                          "paddingBottom": "24px"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "inline-block",
+                              "justifyContent": "center",
+                              "height": "400px",
+                              "alignItems": "center",
+                              "backgroundColor": "#ededed",
+                              "borderRadius": "4px",
+                              "width": "46%",
+                              "marginLeft": "22px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "img",
+                              "variant": "default",
+                              "props": {
+                                "src": "https://github.com/dphil2284/harbor-class-02/blob/master/app/image/Portfolio-thumb.png?raw=true",
+                                "style": {
+                                  "width": "100%"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "inline-block",
+                              "justifyContent": "center",
+                              "height": "400px",
+                              "alignItems": "center",
+                              "backgroundColor": "#ededed",
+                              "borderRadius": "4px",
+                              "width": "46%",
+                              "marginLeft": "8px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "img",
+                              "variant": "default",
+                              "props": {
+                                "src": "https://github.com/dphil2284/harbor-class-02/blob/master/app/image/Portfolio-thumb-02.png?raw=true",
+                                "style": {
+                                  "width": "100%"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -45,28 +1188,2637 @@
       ]
     },
     {
-      "pageName": "Page6",
-      "pagePath": "/work",
+      "pageName": "Page98",
+      "pagePath": "/class-05",
       "children": [
         {
           "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "borderRadius": "4px",
+              "height": "3000px",
+              "width": "100%",
+              "backgroundColor": "#a0a0a0",
+              "paddingRight": "40px",
+              "paddingTop": "40px",
+              "paddingBottom": "40px",
+              "paddingLeft": "40px"
+            }
+          },
           "children": [
             {
-              "type": "h3",
+              "type": "div",
+              "variant": "default",
               "props": {
                 "style": {
-                  "textAlign": "center",
-                  "padding": "15px"
+                  "backgroundColor": "#ffffff",
+                  "width": "100%",
+                  "height": "100%",
+                  "paddingLeft": "50px",
+                  "paddingBottom": "50px",
+                  "paddingRight": "50px",
+                  "paddingTop": "50px",
+                  "boxShadow": "9px 11px 24px -2px rgba(0,0,0,0.45)"
                 }
               },
               "children": [
                 {
-                  "type": "span",
-                  "text": "work page"
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "width": "180px",
+                              "height": "35px",
+                              "backgroundColor": "#cccccc"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6,
+                        "style": {
+                          "backgroundColor": "#f0f0f0",
+                          "color": "#ffffff"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "width": "180px",
+                              "height": "35px",
+                              "backgroundColor": "#cccccc"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3,
+                        "style": {
+                          "backgroundColor": "#f0f0f0",
+                          "color": "#ffffff"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "width": "180px",
+                              "height": "35px",
+                              "backgroundColor": "#cccccc",
+                              "position": "absolute",
+                              "right": "0px"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3,
+                        "style": {
+                          "backgroundColor": "#dfdfdf",
+                          "color": "#ffffff",
+                          "position": "relative"
+                        }
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "style": {
+                      "backgroundColor": "#9e9e9e"
+                    }
+                  }
+                },
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "35px",
+                              "width": "100%"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6,
+                        "style": {
+                          "backgroundColor": "#4c4c4c"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "35px",
+                              "width": "100%",
+                              "backgroundColor": "#f0f0f0"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6,
+                        "style": {
+                          "backgroundColor": "#ffffff"
+                        }
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "style": {
+                      "backgroundColor": "#d4d4d4",
+                      "marginTop": "35px"
+                    }
+                  }
+                },
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "400px",
+                              "backgroundColor": "#ff4f4f"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 12
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "style": {
+                      "marginTop": "35px"
+                    }
+                  }
+                },
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "17px",
+                              "backgroundColor": "#4c4c4c",
+                              "width": "80%"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "17px",
+                              "backgroundColor": "#cdcdcd"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "17px",
+                              "backgroundColor": "#e3e3e3"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "17px",
+                              "backgroundColor": "#cdcdcd"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "style": {
+                      "marginTop": "35px"
+                    }
+                  }
+                },
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "160px",
+                              "backgroundColor": "#e3e3e3",
+                              "width": "96%"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "200px",
+                              "backgroundColor": "#cdcdcd",
+                              "width": "96%",
+                              "position": "absolute",
+                              "left": "1.3%"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "200px",
+                              "backgroundColor": "#e3e3e3",
+                              "width": "96%",
+                              "position": "absolute",
+                              "right": "1.3%"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3,
+                        "style": {
+                          "position": "relative"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "200px",
+                              "backgroundColor": "#cdcdcd",
+                              "width": "96%",
+                              "position": "absolute",
+                              "right": "0px"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3,
+                        "style": {
+                          "position": "relative"
+                        }
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "style": {
+                      "marginTop": "35px"
+                    }
+                  }
                 }
               ]
             }
           ]
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "pageName": "Page170",
+      "pagePath": "/work",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "style": {
+              "height": "3000px",
+              "width": "100%",
+              "backgroundColor": "#ffffff",
+              "padding": "4%"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "backgroundColor": "#ffffff"
+                }
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "width": "100%",
+                              "height": "150px",
+                              "position": "relative"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "position": "absolute",
+                                  "width": "90px",
+                                  "transform": "translateY(-50%)",
+                                  "top": "50%",
+                                  "marginLeft": "12px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "a",
+                                  "variant": "default",
+                                  "props": {
+                                    "href": "/home"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "https://github.com/dphil2284/harbor-class-02/blob/master/app/image/dphi-logo__.png?raw=true",
+                                        "style": {
+                                          "padding": "5px",
+                                          "width": "100%"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "width": "100%",
+                              "height": "150px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "position": "absolute",
+                                  "marginLeft": "5%",
+                                  "top": "50%",
+                                  "transform": "translateY(-50%)"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "22px"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Work"
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "1px",
+                                      "width": "20px",
+                                      "marginTop": "10%",
+                                      "backgroundColor": "#4500fc"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "position": "absolute",
+                                  "marginLeft": "45%",
+                                  "top": "50%",
+                                  "transform": "translateY(-50%)"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "a",
+                                  "variant": "default",
+                                  "props": {
+                                    "href": "/contact",
+                                    "style": {
+                                      "textDecoration": "none"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "22px",
+                                          "color": "#d1d1d1"
+                                        }
+                                      },
+                                      "children": [],
+                                      "text": "Contact"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "1px",
+                                      "width": "20px",
+                                      "marginTop": "10%",
+                                      "backgroundColor": "#d1d1d1"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "position": "absolute",
+                                  "marginLeft": "25%",
+                                  "top": "49%",
+                                  "transform": "translateY(-50%)"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "a",
+                                  "variant": "default",
+                                  "props": {
+                                    "href": "/about",
+                                    "style": {
+                                      "textDecoration": "none"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "22px",
+                                          "color": "#d1d1d1"
+                                        }
+                                      },
+                                      "children": [],
+                                      "text": "About"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "1px",
+                                      "width": "20px",
+                                      "marginTop": "10%",
+                                      "backgroundColor": "#d1d1d1"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {}
+                },
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "backgroundColor": "#ffffff",
+                              "padding": "8px",
+                              "marginTop": "4%"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontFamily": "Sawarabi Mincho",
+                                  "fontSize": "50px",
+                                  "display": "block",
+                                  "top": "50px",
+                                  "color": "#150efa",
+                                  "textAlign": "center"
+                                }
+                              },
+                              "children": [],
+                              "text": "UX/UI"
+                            },
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontSize": "16px",
+                                  "color": "#bfbfbf",
+                                  "textAlign": "center",
+                                  "display": "block",
+                                  "marginTop": "1.5%",
+                                  "letterSpacing": "-1px",
+                                  "fontWeight": 200
+                                }
+                              },
+                              "children": [],
+                              "text": "Storage 유통사 홈페이지 구축 / 운영에 대한 포트폴리오입니다."
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": "12"
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "style": {
+                      "marginTop": "5px"
+                    }
+                  }
+                },
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "width": "100%",
+                              "height": "100%",
+                              "textAlign": "center"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "img",
+                              "variant": "default",
+                              "props": {
+                                "src": "https://github.com/dphil2284/harbor-class-02/blob/master/app/image/Main-img.png?raw=true",
+                                "style": {
+                                  "display": "inline-block",
+                                  "width": "89%",
+                                  "textAlign": "center",
+                                  "position": "relative"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": "12",
+                        "style": {
+                          "position": "relative"
+                        }
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "style": {
+                      "marginTop": "5%"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "variant": "default",
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "justifyContent": "center",
+                  "height": "300px",
+                  "backgroundColor": "#150efa",
+                  "width": "100%",
+                  "position": "relative",
+                  "transform": "translateY(-50%)",
+                  "top": "50%"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "height": "100px",
+                          "top": "50%",
+                          "position": "absolute",
+                          "transform": "translateY(-50%)",
+                          "marginLeft": "2%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "top": "50%",
+                              "position": "relative",
+                              "transform": "translateY(-50%)"
+                            },
+                            "stlye": {}
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "HyunSung Lee",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff"
+                                }
+                              }
+                            },
+                            {
+                              "type": "span",
+                              "text": "BX Designer",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff",
+                                  "marginTop": "11px"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "height": "100px",
+                          "top": "50%",
+                          "position": "absolute",
+                          "transform": "translateY(-50%)",
+                          "marginLeft": "22%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "top": "50%",
+                              "position": "relative",
+                              "transform": "translateY(-50%)"
+                            },
+                            "stlye": {}
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "Guro-gu,Seoul, Republic of Korea",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff"
+                                }
+                              }
+                            },
+                            {
+                              "type": "span",
+                              "text": "08239",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff",
+                                  "marginTop": "11px"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "height": "100px",
+                          "top": "50%",
+                          "position": "absolute",
+                          "transform": "translateY(-50%)",
+                          "marginLeft": "55%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "top": "50%",
+                              "position": "relative",
+                              "transform": "translateY(-50%)"
+                            },
+                            "stlye": {}
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "d_phil@naver.com",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff"
+                                }
+                              }
+                            },
+                            {
+                              "type": "span",
+                              "text": "010.2284.2506",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff",
+                                  "marginTop": "11px"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "namespace": "Layout",
+          "props": {
+            "col": 12,
+            "style": {
+              "height": "300px",
+              "top": "0px",
+              "backgroundColor": "#ffffff",
+              "bottom": "0px"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "pageName": "Page171",
+      "pagePath": "/about",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "style": {
+              "height": "900px",
+              "width": "100%",
+              "backgroundColor": "#ffffff",
+              "padding": "4%"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "backgroundColor": "#ffffff"
+                }
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "width": "100%",
+                              "height": "150px",
+                              "position": "relative"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "width": "90px",
+                                  "position": "absolute",
+                                  "transform": "translateY(-50%)",
+                                  "top": "50%",
+                                  "padding": "5px",
+                                  "marginLeft": "12px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "a",
+                                  "variant": "default",
+                                  "props": {
+                                    "href": "/home"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "https://github.com/dphil2284/harbor-class-02/blob/master/app/image/dphi-logo__.png?raw=true",
+                                        "style": {
+                                          "width": "100%"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "width": "100%",
+                              "height": "150px",
+                              "position": "relative"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "position": "absolute",
+                                  "marginLeft": "5%",
+                                  "transform": "translateY(-50%)",
+                                  "top": "50%"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "a",
+                                  "variant": "default",
+                                  "props": {
+                                    "href": "/work",
+                                    "style": {
+                                      "textDecoration": "none"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "22px",
+                                          "color": "#d1d1d1"
+                                        }
+                                      },
+                                      "children": [],
+                                      "text": "Work"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "1px",
+                                      "width": "20px",
+                                      "marginTop": "10%",
+                                      "backgroundColor": "#d1d1d1"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "position": "absolute",
+                                  "marginLeft": "45%",
+                                  "top": "50%",
+                                  "transform": "translateY(-50%)"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "a",
+                                  "variant": "default",
+                                  "props": {
+                                    "href": "/contact",
+                                    "style": {
+                                      "textDecoration": "none"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "22px",
+                                          "color": "#d1d1d1"
+                                        }
+                                      },
+                                      "children": [],
+                                      "text": "Contact"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "1px",
+                                      "width": "20px",
+                                      "marginTop": "10%",
+                                      "backgroundColor": "#d1d1d1"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "position": "absolute",
+                                  "marginLeft": "25%",
+                                  "top": "50%",
+                                  "transform": "translateY(-50%)"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "22px"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "About"
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "1px",
+                                      "width": "20px",
+                                      "marginTop": "10%",
+                                      "backgroundColor": "#4500fc"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {}
+                },
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "backgroundColor": "#ffffff",
+                              "position": "relative",
+                              "height": "80px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "position": "absolute",
+                                  "width": "68%",
+                                  "left": "50%",
+                                  "transform": "translateX(-50%)"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "35px",
+                                      "color": "#150efa",
+                                      "fontFamily": "Nanum Myeongjo",
+                                      "letterSpacing": "-2px",
+                                      "fontWeight": 600,
+                                      "display": "block"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "당신의 생각을 보다 가치롭게 만들기 위해 노력합니다."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": "12"
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "style": {
+                      "marginTop": "10%"
+                    }
+                  }
+                },
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "position": "absolute",
+                              "backgroundColor": "#ffffff",
+                              "transform": "translateX(-50%)",
+                              "left": "50%",
+                              "marginTop": "3%",
+                              "width": "68%"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "width": "100px",
+                                  "height": "1px",
+                                  "backgroundColor": "#150efa",
+                                  "position": "absolute"
+                                }
+                              },
+                              "children": []
+                            },
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontFamily": "Nanum Myeongjo",
+                                      "color": "#3b3b3b",
+                                      "fontSize": "20px",
+                                      "letterSpacing": "-0.5px",
+                                      "display": "block",
+                                      "lineHeight": "39px",
+                                      "marginTop": "8%"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "고객님의 소중한 고민과 제가 가진 디자인에 대한 열정으로 최고의 결과물을 만들고자 합니다."
+                                }
+                              ]
+                            },
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontFamily": "Nanum Myeongjo",
+                                      "color": "#3b3b3b",
+                                      "fontSize": "20px",
+                                      "letterSpacing": "-0.5px",
+                                      "display": "block",
+                                      "lineHeight": "39px",
+                                      "textAlign": "start"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "홈페이지 운영 및 구축 / 사업 전반에 대한 디자인 작업으로 사업성에 대한 이해가 빠르고, 클라이언트가 원하는 부분과 디자인 트렌드를 반영하여 대중성 있는 결과물을 도출하고자 합니다. 끊임없는 탐구 정신은 더 나은 가치를 만들어준다고 생각합니다. 끊임 없이 더 나음을 추구하고 고민하여 최고의 결과물을 도출하고자 하는 디자이너 이현성입니다."
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "marginTop": "5%"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "fontFamily": "Nanum Myeongjo",
+                                          "color": "#3b3b3b",
+                                          "fontSize": "25px",
+                                          "letterSpacing": "-0.5px",
+                                          "display": "inline-block",
+                                          "verticalAlign": "middle"
+                                        }
+                                      },
+                                      "children": [],
+                                      "text": "Behance"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "fontFamily": "Nanum Myeongjo",
+                                          "color": "#3b3b3b",
+                                          "fontSize": "3px",
+                                          "display": "inline-block",
+                                          "marginLeft": "2%",
+                                          "verticalAlign": "middle"
+                                        }
+                                      },
+                                      "children": [],
+                                      "text": "●"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "fontFamily": "Nanum Myeongjo",
+                                          "color": "#3b3b3b",
+                                          "fontSize": "25px",
+                                          "letterSpacing": "-0.5px",
+                                          "display": "inline-block",
+                                          "marginLeft": "10px",
+                                          "verticalAlign": "middle"
+                                        }
+                                      },
+                                      "children": [],
+                                      "text": "Pinterest"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontFamily": "Nanum Myeongjo",
+                                      "color": "#150efa",
+                                      "fontSize": "16px",
+                                      "letterSpacing": "-0.5px",
+                                      "display": "block",
+                                      "lineHeight": "39px",
+                                      "marginTop": "5%"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "E-Mail. d_phil@naver.com"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": "12",
+                        "style": {
+                          "position": "relative"
+                        }
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "variant": "default",
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "justifyContent": "center",
+                  "height": "300px",
+                  "backgroundColor": "#150efa",
+                  "width": "100%",
+                  "position": "relative",
+                  "transform": "translateY(-50%)",
+                  "top": "50%"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "height": "100px",
+                          "top": "50%",
+                          "position": "absolute",
+                          "transform": "translateY(-50%)",
+                          "marginLeft": "2%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "top": "50%",
+                              "position": "relative",
+                              "transform": "translateY(-50%)"
+                            },
+                            "stlye": {}
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "HyunSung Lee",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff"
+                                }
+                              }
+                            },
+                            {
+                              "type": "span",
+                              "text": "BX Designer",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff",
+                                  "marginTop": "11px"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "height": "100px",
+                          "top": "50%",
+                          "position": "absolute",
+                          "transform": "translateY(-50%)",
+                          "marginLeft": "22%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "top": "50%",
+                              "position": "relative",
+                              "transform": "translateY(-50%)"
+                            },
+                            "stlye": {}
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "Guro-gu,Seoul, Republic of Korea",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff"
+                                }
+                              }
+                            },
+                            {
+                              "type": "span",
+                              "text": "08239",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff",
+                                  "marginTop": "11px"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "height": "100px",
+                          "top": "50%",
+                          "position": "absolute",
+                          "transform": "translateY(-50%)",
+                          "marginLeft": "55%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "top": "50%",
+                              "position": "relative",
+                              "transform": "translateY(-50%)"
+                            },
+                            "stlye": {}
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "d_phil@naver.com",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff"
+                                }
+                              }
+                            },
+                            {
+                              "type": "span",
+                              "text": "010.2284.2506",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff",
+                                  "marginTop": "11px"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "right": "1%",
+                          "height": "100%",
+                          "width": "100%",
+                          "display": "inline-block",
+                          "position": "absolute"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "40px",
+                              "top": "50%",
+                              "position": "absolute",
+                              "transform": "translateY(-50%)",
+                              "marginLeft": "55%",
+                              "right": "0%",
+                              "width": "40px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "i",
+                              "variant": "default",
+                              "props": {
+                                "className": "fab fa-dribbble",
+                                "style": {
+                                  "fontSize": "24px",
+                                  "top": "50%",
+                                  "position": "relative",
+                                  "transform": "translate(-50%, -50%)",
+                                  "left": "50%",
+                                  "color": "#ffffff"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "40px",
+                              "top": "50%",
+                              "position": "absolute",
+                              "transform": "translateY(-50%)",
+                              "right": "3.5%",
+                              "width": "40px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "i",
+                              "variant": "default",
+                              "props": {
+                                "className": "fab fa-twitter",
+                                "style": {
+                                  "fontSize": "24px",
+                                  "top": "50%",
+                                  "position": "relative",
+                                  "transform": "translate(-50%, -50%)",
+                                  "left": "50%",
+                                  "color": "#ffffff"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "40px",
+                              "top": "50%",
+                              "position": "absolute",
+                              "transform": "translateY(-50%)",
+                              "right": "7%",
+                              "width": "40px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "i",
+                              "variant": "default",
+                              "props": {
+                                "className": "fab fa-facebook-f",
+                                "style": {
+                                  "fontSize": "24px",
+                                  "top": "50%",
+                                  "position": "relative",
+                                  "transform": "translate(-50%, -50%)",
+                                  "left": "50%",
+                                  "color": "#ffffff"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "namespace": "Layout",
+          "props": {
+            "col": 12,
+            "style": {
+              "height": "300px",
+              "top": "0px",
+              "backgroundColor": "#ffffff",
+              "bottom": "0px"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "pageName": "Page402",
+      "pagePath": "/contact",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "style": {
+              "height": "900px",
+              "width": "100%",
+              "backgroundColor": "#ffffff",
+              "padding": "4%"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "backgroundColor": "#ffffff"
+                }
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "width": "100%",
+                              "height": "150px",
+                              "position": "relative"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "width": "90px",
+                                  "position": "absolute",
+                                  "transform": "translateY(-50%)",
+                                  "top": "50%",
+                                  "padding": "5px",
+                                  "marginLeft": "12px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "a",
+                                  "variant": "default",
+                                  "props": {
+                                    "href": "/home"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "https://github.com/dphil2284/harbor-class-02/blob/master/app/image/dphi-logo__.png?raw=true",
+                                        "style": {
+                                          "width": "100%"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "width": "100%",
+                              "height": "150px",
+                              "position": "relative"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "position": "absolute",
+                                  "marginLeft": "5%",
+                                  "transform": "translateY(-50%)",
+                                  "top": "50%"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "a",
+                                  "variant": "default",
+                                  "props": {
+                                    "href": "/work",
+                                    "style": {
+                                      "textDecoration": "none"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "22px",
+                                          "color": "#d1d1d1"
+                                        }
+                                      },
+                                      "children": [],
+                                      "text": "Work"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "1px",
+                                      "width": "20px",
+                                      "marginTop": "10%",
+                                      "backgroundColor": "#d1d1d1"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "position": "absolute",
+                                  "marginLeft": "45%",
+                                  "top": "50%",
+                                  "transform": "translateY(-50%)"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "22px",
+                                      "color": "#000000"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Contact"
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "1px",
+                                      "width": "20px",
+                                      "marginTop": "10%",
+                                      "backgroundColor": "#150efa"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "position": "absolute",
+                                  "marginLeft": "25%",
+                                  "top": "50%",
+                                  "transform": "translateY(-50%)"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "a",
+                                  "variant": "default",
+                                  "props": {
+                                    "href": "/about",
+                                    "style": {
+                                      "textDecoration": "none"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "22px",
+                                          "textDecoration": "none",
+                                          "color": "#d1d1d1"
+                                        }
+                                      },
+                                      "children": [],
+                                      "text": "About"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "1px",
+                                      "width": "20px",
+                                      "marginTop": "10%",
+                                      "backgroundColor": "#d1d1d1"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {}
+                },
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "backgroundColor": "#ffffff",
+                              "position": "relative",
+                              "height": "80px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "position": "absolute",
+                                  "width": "68%",
+                                  "left": "50%",
+                                  "transform": "translateX(-50%)"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "35px",
+                                      "color": "#150efa",
+                                      "fontFamily": "Nanum Myeongjo",
+                                      "letterSpacing": "-2px",
+                                      "fontWeight": 600,
+                                      "display": "block"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Hyunsung Lee"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": "12"
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "style": {
+                      "marginTop": "10%"
+                    }
+                  }
+                },
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "position": "absolute",
+                              "backgroundColor": "#ffffff",
+                              "transform": "translateX(-50%)",
+                              "left": "50%",
+                              "marginTop": "3%",
+                              "width": "68%"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "width": "100px",
+                                  "height": "1px",
+                                  "backgroundColor": "#150efa",
+                                  "position": "absolute"
+                                }
+                              },
+                              "children": []
+                            },
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontFamily": "Nanum Myeongjo",
+                                      "color": "#3b3b3b",
+                                      "fontSize": "20px",
+                                      "letterSpacing": "-0.5px",
+                                      "display": "block",
+                                      "lineHeight": "39px",
+                                      "marginTop": "8%"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "고객님의 소중한 고민과 제가 가진 디자인에 대한 열정으로 최고의 결과물을 만들고자 합니다."
+                                }
+                              ]
+                            },
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontFamily": "Nanum Myeongjo",
+                                      "color": "#3b3b3b",
+                                      "fontSize": "20px",
+                                      "letterSpacing": "-0.5px",
+                                      "display": "block",
+                                      "lineHeight": "39px",
+                                      "textAlign": "start"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "홈페이지 운영 및 구축 / 사업 전반에 대한 디자인 작업으로 사업성에 대한 이해가 빠르고, 클라이언트가 원하는 부분과 디자인 트렌드를 반영하여 대중성 있는 결과물을 도출하고자 합니다. 끊임없는 탐구 정신은 더 나은 가치를 만들어준다고 생각합니다. 끊임 없이 더 나음을 추구하고 고민하여 최고의 결과물을 도출하고자 하는 디자이너 이현성입니다."
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "marginTop": "5%"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "fontFamily": "Nanum Myeongjo",
+                                          "color": "#3b3b3b",
+                                          "fontSize": "25px",
+                                          "letterSpacing": "-0.5px",
+                                          "display": "inline-block",
+                                          "verticalAlign": "middle"
+                                        }
+                                      },
+                                      "children": [],
+                                      "text": "Behance"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "fontFamily": "Nanum Myeongjo",
+                                          "color": "#3b3b3b",
+                                          "fontSize": "3px",
+                                          "display": "inline-block",
+                                          "marginLeft": "2%",
+                                          "verticalAlign": "middle"
+                                        }
+                                      },
+                                      "children": [],
+                                      "text": "●"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "fontFamily": "Nanum Myeongjo",
+                                          "color": "#3b3b3b",
+                                          "fontSize": "25px",
+                                          "letterSpacing": "-0.5px",
+                                          "display": "inline-block",
+                                          "marginLeft": "10px",
+                                          "verticalAlign": "middle"
+                                        }
+                                      },
+                                      "children": [],
+                                      "text": "Pinterest"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontFamily": "Nanum Myeongjo",
+                                      "color": "#150efa",
+                                      "fontSize": "16px",
+                                      "letterSpacing": "-0.5px",
+                                      "display": "block",
+                                      "lineHeight": "39px",
+                                      "marginTop": "5%"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "E-Mail. d_phil@naver.com"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": "12",
+                        "style": {
+                          "position": "relative"
+                        }
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "variant": "default",
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "justifyContent": "center",
+                  "height": "300px",
+                  "backgroundColor": "#150efa",
+                  "width": "100%",
+                  "position": "relative",
+                  "transform": "translateY(-50%)",
+                  "top": "50%"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "height": "100px",
+                          "top": "50%",
+                          "position": "absolute",
+                          "transform": "translateY(-50%)",
+                          "marginLeft": "2%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "top": "50%",
+                              "position": "relative",
+                              "transform": "translateY(-50%)"
+                            },
+                            "stlye": {}
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "HyunSung Lee",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff"
+                                }
+                              }
+                            },
+                            {
+                              "type": "span",
+                              "text": "BX Designer",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff",
+                                  "marginTop": "11px"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "height": "100px",
+                          "top": "50%",
+                          "position": "absolute",
+                          "transform": "translateY(-50%)",
+                          "marginLeft": "22%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "top": "50%",
+                              "position": "relative",
+                              "transform": "translateY(-50%)"
+                            },
+                            "stlye": {}
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "Guro-gu,Seoul, Republic of Korea",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff"
+                                }
+                              }
+                            },
+                            {
+                              "type": "span",
+                              "text": "08239",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff",
+                                  "marginTop": "11px"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "height": "100px",
+                          "top": "50%",
+                          "position": "absolute",
+                          "transform": "translateY(-50%)",
+                          "marginLeft": "55%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "p",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "top": "50%",
+                              "position": "relative",
+                              "transform": "translateY(-50%)"
+                            },
+                            "stlye": {}
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "d_phil@naver.com",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff"
+                                }
+                              }
+                            },
+                            {
+                              "type": "span",
+                              "text": "010.2284.2506",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "color": "#ffffff",
+                                  "marginTop": "11px"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "right": "1%",
+                          "height": "100%",
+                          "width": "100%",
+                          "display": "inline-block",
+                          "position": "absolute"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "40px",
+                              "top": "50%",
+                              "position": "absolute",
+                              "transform": "translateY(-50%)",
+                              "marginLeft": "55%",
+                              "right": "0%",
+                              "width": "40px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "i",
+                              "variant": "default",
+                              "props": {
+                                "className": "fab fa-dribbble",
+                                "style": {
+                                  "fontSize": "24px",
+                                  "top": "50%",
+                                  "position": "relative",
+                                  "transform": "translate(-50%, -50%)",
+                                  "left": "50%",
+                                  "color": "#ffffff"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "40px",
+                              "top": "50%",
+                              "position": "absolute",
+                              "transform": "translateY(-50%)",
+                              "right": "3.5%",
+                              "width": "40px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "i",
+                              "variant": "default",
+                              "props": {
+                                "className": "fab fa-twitter",
+                                "style": {
+                                  "fontSize": "24px",
+                                  "top": "50%",
+                                  "position": "relative",
+                                  "transform": "translate(-50%, -50%)",
+                                  "left": "50%",
+                                  "color": "#ffffff"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "40px",
+                              "top": "50%",
+                              "position": "absolute",
+                              "transform": "translateY(-50%)",
+                              "right": "7%",
+                              "width": "40px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "i",
+                              "variant": "default",
+                              "props": {
+                                "className": "fab fa-facebook-f",
+                                "style": {
+                                  "fontSize": "24px",
+                                  "top": "50%",
+                                  "position": "relative",
+                                  "transform": "translate(-50%, -50%)",
+                                  "left": "50%",
+                                  "color": "#ffffff"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "namespace": "Layout",
+          "props": {
+            "col": 12,
+            "style": {
+              "height": "300px",
+              "top": "0px",
+              "backgroundColor": "#ffffff",
+              "bottom": "0px"
+            }
+          }
         }
       ]
     }
